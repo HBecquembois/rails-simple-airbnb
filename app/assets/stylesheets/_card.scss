@@ -1,0 +1,13 @@
+.flats-cards-container {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  grid-gap: 2em;
+}
+
+.flat-card {
+  overflow: hidden;
+  color: red;
+  background: grey;
+  box-shadow: 0 0 15px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  }
