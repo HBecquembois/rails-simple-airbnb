@@ -5,9 +5,11 @@
 }
 
 .flat-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  background-color: lightgrey;
   overflow: hidden;
-  color: red;
-  background: grey;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
-  }
+}
