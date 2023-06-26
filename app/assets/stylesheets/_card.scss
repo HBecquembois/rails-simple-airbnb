@@ -5,11 +5,26 @@
 }
 
 .flat-card {
+  padding: 1em 1em;
   display: flex;
   flex-direction: column;
   justify-content: center;
-  background-color: lightgrey;
+  background-color: #F8F9FA;
   overflow: hidden;
   box-shadow: 0 0 15px rgba(0,0,0,0.2);
   border-radius: 5px;
+}
+
+.flat-card-links {
+  display: flex;
+  justify-content: space-between;
+    .more {
+      color: blue;
+    }
+    .edit {
+      color: orange;
+    }
+    .remove {
+      color: red;
+    }
 }
